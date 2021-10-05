@@ -79,7 +79,7 @@ void InitUART(void)
 	RI=TI=1;
 }
 
-void start()  //开始信号
+void start()  
 {	
 	sda=1;
 	delay();
@@ -88,7 +88,7 @@ void start()  //开始信号
 	sda=0;
 	delay();
 }
-void stop()   //停止
+void stop()  
 {
 	sda=0;
 	delay();
@@ -97,7 +97,7 @@ void stop()   //停止
 	sda=1;
 	delay();
 }
-void respons()  //应答
+void respons()  
 {
 	uchar i;
 	scl=1;
